@@ -23,7 +23,8 @@ class Transfer
       "Transaction was already executed"
     else
       @status = "rejected"
-    end 
+      "Transaction was rejected. Please check your account"
+      end 
       
     end 
 end
