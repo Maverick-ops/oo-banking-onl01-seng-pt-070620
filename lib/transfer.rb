@@ -20,7 +20,7 @@ class Transfer
       @status == "complete"
       elsif 
       @status == "complete"
-      "Transaction"
+      "Transaction was already executed"
     end 
       
     end 
