@@ -25,5 +25,6 @@ class Transfer
       "Transaction was rejected. Please check your account."
       end 
       
+      
     end 
 end
