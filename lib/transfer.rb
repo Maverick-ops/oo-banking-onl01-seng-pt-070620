@@ -19,6 +19,7 @@ class Transfer
       receiver.deposit (amount)
       @status == "complete"
     else if 
-      @status
+      @status == "complete"
+      ""
     end 
 end
