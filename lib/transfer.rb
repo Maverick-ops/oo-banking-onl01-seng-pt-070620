@@ -17,6 +17,7 @@ class Transfer
     if valid? && sender.balance > amount && @status == "pending"
       sender.deposit (amount * -1)
       receiver.deposit (amount)
-      @status = 
+      @status == "complete"
+      
     end 
 end
