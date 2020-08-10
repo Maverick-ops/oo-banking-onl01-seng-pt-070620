@@ -18,6 +18,9 @@ class Transfer
       sender.deposit (amount * -1)
       receiver.deposit (amount)
       @status == "complete"
+      elsif 
+      @status == "complete"
+      "Transaction"
     end 
       
     end 
