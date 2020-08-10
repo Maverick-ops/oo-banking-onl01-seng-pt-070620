@@ -8,4 +8,8 @@ class Transfer
     @status = "pending"
   # your code here
   end
+  
+  def valid?
+    
+  end
 end
