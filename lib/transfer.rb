@@ -21,6 +21,8 @@ class Transfer
       elsif 
       @status == "complete"
       "Transaction was already executed"
+    else
+      @status = "rejected"
     end 
       
     end 
