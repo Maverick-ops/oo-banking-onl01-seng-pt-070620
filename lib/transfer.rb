@@ -4,3 +4,4 @@ class Transfer
     @name = name 
   # your code here
 end
+end
